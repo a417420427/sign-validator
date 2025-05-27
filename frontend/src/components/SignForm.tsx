@@ -90,7 +90,7 @@ const SignForm: React.FC = () => {
 
   return (
     <div className="container">
-      <h2>OpenAPI 签名验证工具（自动签名）</h2>
+      <h2>签名验证工具</h2>
 
       {['appId', 'timestamp', 'nonceStr', 'secret'].map((field) => (
         <div className="input-group" key={field}>
